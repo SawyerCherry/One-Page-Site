@@ -66,7 +66,7 @@ html {
     font-family: "Montserrat";
     color: white;
     font-weight: 900;
-    font-size: xx-large;
+    font-size: 100px;
 }
 
 
@@ -109,6 +109,7 @@ html {
     margin: 0 0 0 0;
     text-align: center;   
     border-radius: 10px; 
+
 }
 
 .lil-box {
@@ -139,6 +140,7 @@ html {
     margin: 0em;
     padding-top: 1em;
     
+    
 }
 
 .box-p {
@@ -155,6 +157,36 @@ html {
     border: 1.5px solid black;
     border-radius: 3px;
     font-family: "Montserrat";
+}
+.split-section {
+    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #4d5359;
+    border: solid 1px black;
+    margin: .5em 0 0 0;
+    text-align: center;   
+    border-radius: 10px;
+}
+.split-h2 {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 2em;
+}
+.split-p {
+    line-height: 1.5;
+}
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-bottom: .5em;
+   
 }
 
 #contact {
@@ -174,6 +206,7 @@ html {
 #contact form {
     display: flex;
     flex-direction: column;
+
     
 }
 
@@ -181,12 +214,27 @@ html {
     display: flex;
     flex-direction: column;
     font-family: "Montserrat";
-    padding: 1em;
+    padding: 1em 1em 1em 1em;
+    font-size: large;
     background-color: #4a4238;
+    height: auto;
+    width: 400px;
 
 }
 #contact input {
+    margin-top: 1em;
     background-color: cadetblue;
+    width: fit-content;
+}
+textarea {
+    background-color: cadetblue;
+}
+button {
+    font-size: large;
+    margin-top: 1em;
+    font-family: "Montserrat";
+    font-weight: bold;
+    background-color: #4a4238;
 }
 
 /*
