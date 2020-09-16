@@ -86,6 +86,7 @@ html {
     border-radius: 10px;
     margin-bottom: .5em;
     background-color: #4d5359;
+    font-family: "Montserrat";
 }
 
 .full-text {
@@ -159,7 +160,7 @@ html {
     font-family: "Montserrat";
 }
 .split-section {
-    
+    font-family: "Montserrat";
     width: 100%;
     height: auto;
     display: flex;
@@ -172,12 +173,14 @@ html {
     border-radius: 10px;
 }
 .split-h2 {
+    font-family: "Montserrat";
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
     padding-bottom: 2em;
 }
 .split-p {
+    font-family: "Montserrat";
     line-height: 1.5;
 }
 .center {
@@ -190,6 +193,7 @@ html {
 }
 
 #contact {
+    font-family: "Montserrat";
     padding-top: 2em;
     background-color: #4d5359;
     border: 1px solid black;
@@ -222,6 +226,7 @@ html {
 
 }
 #contact input {
+    font-family: "Montserrat";
     margin-top: 1em;
     background-color: cadetblue;
     width: fit-content;
